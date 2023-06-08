@@ -4,7 +4,7 @@ font-family: 'Josefin Sans', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'RocknRoll One', sans-serif;*/
 *{
-    margin: 1px;
+    margin: 10px;
     padding: 0px;
     max-width: 100%;
     
@@ -19,13 +19,14 @@ body{
 /* navbar */
 
   .navbar {
-    width: 100vw;
+    max-width: 100%;
     font-family: 'RocknRoll One', sans-serif;
-    padding-left: 70px;
-    padding-right: 70px;
-    margin: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top :0%;
     padding-bottom: 0%;
+    margin: 0px;
+    position: relative;
     
   }
   .navbar-nav .nav-item .nav-link {
@@ -88,6 +89,14 @@ ul.dropdown-menu a.dropdown-item:focus {
     color: #000000;
   }
 
+  .nav .img{
+    margin: 0px;
+  }
+  
+  
+
+
+  
 /* container 2 */
 .container2{
 
@@ -97,8 +106,13 @@ ul.dropdown-menu a.dropdown-item:focus {
     padding-top: 0;
 
 }
-.text,.pic{
+.text{
     margin: 10px;
+}
+
+.pic{
+  margin-left: 100px;
+  margin-top: 35px;
 }
 
 img{
